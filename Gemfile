@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+  gem "webpacker"
+  gem "cssbundling-rails"
+  gem "font-awesome-sass", "~> 6.2.1"
