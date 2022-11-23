@@ -75,3 +75,4 @@ end
   gem "font-awesome-sass", "~> 6.2.1"
   gem "haml-rails"
   gem "html2haml"
+  gem "simple_form"
