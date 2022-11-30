@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :courses
   root  'home#index'
   get 'static_pages/landing_page'
   get 'static_pages/privacy_policy'
