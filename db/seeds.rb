@@ -1,7 +1,10 @@
+User.create!(email: 'baraanoop@gmail.com', password: 'AnoopB2022', password_confirmation: 'AnoopB2022')
+
 30.times do
   Course.create!([{
     title: Faker::Educator.course_name,
-    description: Faker::TvShows::GameOfThrones.quote
+    description: Faker::TvShows::GameOfThrones.quote,
+    user_id: User.first.id
   }])
 end
 # This file should contain all the record creation needed to seed the database with its default values.
